@@ -34,7 +34,7 @@ QUY TẮC TRÍCH XUẤT:
 LƯU Ý: Trả về JSON duy nhất, không giải thích.`;
 
 export const processGmpDocument = async (base64Data: string, mimeType: string): Promise<ProcessingResult> => {
-  const ai = new GoogleGenAI({ apiKey: process.env.API_KEY });
+  const ai = new GoogleGenAI({ apiKey: process.env.GEMINI_API_KEY });
   
   try {
     const response = await ai.models.generateContent({
