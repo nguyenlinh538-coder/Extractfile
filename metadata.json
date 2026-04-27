@@ -1,0 +1,8 @@
+{
+  "name": "Trích xuất tài liệu STĐ, BCSPKPH, Đề xuất cải tiến",
+  "description": "Chuyên gia xử lý hồ sơ GMP ngành dược - Trích xuất tên sản phẩm, số lô và nội dung thay đổi từ tài liệu PDF/Hình ảnh.",
+  "requestFramePermissions": [
+    "camera"
+  ],
+  "majorCapabilities": []
+}
